@@ -3,6 +3,10 @@
 # set a default HOME_DIR environment variable if not set
 HOME_DIR="${HOME_DIR:-/home/vagrant}";
 
+http_proxy="http://proxy.standard.com:8080"
+https_proxy="http://proxy.standard.com:8080"
+HTTP_PROXY="http://proxy.standard.com:8080"
+HTTPS_PROXY="http://proxy.standard.com:8080"
 pubkey_url="https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub";
 mkdir -p $HOME_DIR/.ssh;
 if command -v wget >/dev/null 2>&1; then
