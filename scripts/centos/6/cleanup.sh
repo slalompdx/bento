@@ -13,7 +13,6 @@ fi
 # Remove development and kernel source packages
 # yum -y remove gcc cpp kernel-devel kernel-headers perl;
 uname -a
-/etc/init.d/vboxadd setup
 
 if [ "$distro" != 'red hat' ]; then
   yum -y clean all;
