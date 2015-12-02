@@ -147,7 +147,7 @@
         "scripts/common/sshd.sh",
         "scripts/centos/networking.sh",
         "scripts/common/vagrant.sh",
-        "scripts/common/reboot.sh",
+        "scripts/centos/6/reboot.sh",
         "scripts/common/vmtools.sh",
         "scripts/centos/6/cleanup.sh",
         "scripts/common/minimize.sh"
