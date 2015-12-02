@@ -1,6 +1,6 @@
 #!/bin/sh
 
-yum install yum-utils
+yum -y install yum-utils
 
 package-cleanup --oldkernels --count=2
 reboot
